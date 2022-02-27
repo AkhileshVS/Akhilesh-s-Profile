@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    background-color: #263040;
+    flex-direction: row;
+
+    /*background-color: #6e6e6e;*/
+    margin: solid 2px black;
+    height: 30vh;
+
+
+.leftcontainer{
+    background-color: #263040;
+    flex-grow: 2;
+    margin:20px bold white;
+    display: flex;
+    height: 30vh;
+    /*width: 1000px;*/
+    flex-direction: column;
+
+    .Akhilesh{
+        padding-top: 30px;
+        padding-left: 30px;
+        #Akhilesh{
+            padding-top: 30px;
+            
+            color: white;
+            font-size: 32px;
+            font-family: sans-serif;
+    }
+}
+.matter{
+    background-color:#263040;
+
+    
+    margin-left: 20px;
+
+    .About{
+        
+        padding-left: 10px;
+            
+            color: white;
+            font-size: 18px;
+            font-family: sans-serif;
+
+    }  
+
+
+}
+   
+}
+.rightcontainer{
+    background-color: #263040;
+    margin:20px bold white;
+    padding: 20px;
+
+    
+    img {
+        border-radius: 50%;
+        float:right;
+        
+      }
+
+
+
+}
+}
+
+
+
+.contcontainer{
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    
+    img {
+        border-radius: 50%;
+        float:right;
+        
+      }
+
+    .left{
+        display: flex;
+        
+        flex-direction: column;
+        width : 50%;
+        .email{
+            padding-top: 20px;
+            padding-left: 20px;
+            order:1;
+            display: flex;
+            flex: left;
+            #email{
+                color: white;
+                padding-left: 10px;
+                align-items: center;
+            }
+        }
+        .location{
+            padding-top: 10px;
+            padding-left: 20px;
+            order:2;
+            display: flex;
+            flex:left;
+            p{
+                padding-left: 10px;
+                color:white;
+            }
+        }
+
+    }
+
+    .right{
+        display :flex;
+        flex-direction: column;
+        .phone{
+            padding-top: 20px;
+            padding-left: 20px;
+            order:1;
+            display: flex;
+            flex: left;
+
+            #number{
+                color: white;
+                padding-left: 10px;
+                align-items: center;
+            
+
+            }
+
+        }
+
+        .linkedin{
+
+            padding-top: 10px;
+            padding-left: 20px;
+            order:2;
+            display: flex;
+            flex: left;
+
+            a{
+                padding-top: 20px;
+                color: white;
+                padding-left: 20px;
+                align-items: center;
+            
+            }
+
+        }
+    }
+}

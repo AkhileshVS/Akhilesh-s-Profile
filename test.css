@@ -1,0 +1,190 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #263040;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  /*background-color: #6e6e6e;*/
+  margin: solid 2px black;
+  height: 30vh;
+}
+
+.container .leftcontainer {
+  background-color: #263040;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  margin: 20px bold white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vh;
+  /*width: 1000px;*/
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .leftcontainer .Akhilesh {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.container .leftcontainer .Akhilesh #Akhilesh {
+  padding-top: 30px;
+  color: white;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+.container .leftcontainer .matter {
+  background-color: #263040;
+  margin-left: 20px;
+}
+
+.container .leftcontainer .matter .About {
+  padding-left: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.container .rightcontainer {
+  background-color: #263040;
+  margin: 20px bold white;
+  padding: 20px;
+}
+
+.container .rightcontainer img {
+  border-radius: 50%;
+  float: right;
+}
+
+.contcontainer {
+  background-color: black;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contcontainer img {
+  border-radius: 50%;
+  float: right;
+}
+
+.contcontainer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.contcontainer .left .email {
+  padding-top: 20px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .left .email #email {
+  color: white;
+  padding-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contcontainer .left .location {
+  padding-top: 10px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .left .location p {
+  padding-left: 10px;
+  color: white;
+}
+
+.contcontainer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contcontainer .right .phone {
+  padding-top: 20px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .right .phone #number {
+  color: white;
+  padding-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contcontainer .right .linkedin {
+  padding-top: 10px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .right .linkedin a {
+  padding-top: 20px;
+  color: white;
+  padding-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=test.css.map */

@@ -45,7 +45,7 @@
   padding-top: 30px;
   color: white;
   font-size: 32px;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container .leftcontainer .matter {
@@ -57,7 +57,7 @@
   padding-left: 10px;
   color: white;
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container .rightcontainer {
@@ -142,6 +142,7 @@
 }
 
 .contcontainer .right {
+  font-family: 'Ubuntu', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,6 +175,7 @@
 }
 
 .contcontainer .right .linkedin {
+  font-family: 'Ubuntu', sans-serif;
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -198,6 +200,7 @@
 }
 
 .main {
+  font-family: 'Ubuntu', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,20 +208,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.main .main-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 10px;
-}
-
-.main .main-left #Heading {
+.main .Heading {
   color: #0a5a5a;
   font-weight: bold;
   -ms-flex-wrap: wrap;
@@ -227,10 +222,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 5px;
+  margin: 18px;
+  padding: 0;
 }
 
-.main .main-left .Sub-Head {
+.main .Sub-Head {
   color: black;
   font-weight: bold;
   font-style: normal;
@@ -240,19 +236,57 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 5px;
+  margin: 5px;
+  margin-left: 18px;
+  padding: 0;
 }
 
-.main .main-left .details {
+.main .details {
   color: black;
   font-weight: bold;
   font-style: normal;
   font-size: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 5px;
+  margin: 5px;
+  margin-left: 18px;
+  padding: 0;
+}
+
+.main .date {
+  color: #0a5a5a;
+  margin: 5px;
+  margin-left: 18px;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+}
+
+.main li {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #0a5a5a;
+  width: 70%;
+  font-style: normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main li span {
+  color: black;
+}
+
+.main .main-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: row;
+  width: 50%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: top;
 }
 /*# sourceMappingURL=test.css.map */

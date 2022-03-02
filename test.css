@@ -1,207 +1,258 @@
-#temporary {
-  color: red;
-  text-align: center;
+/*
+#temporary{
+    color: red;
+    text-align: center;
+    
 }
-
 .img-container {
-  text-align: center;
+    text-align: center;
+  }*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #263040;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: solid 2px black;
+  height: 28vh;
 }
 
-/*.container{
-    display: flex;
-    background-color: #263040;
-    flex-direction: row;
-
-  
-    margin: solid 2px black;
-    height: 28vh;
-
-
-.leftcontainer{
-    background-color: #263040;
-    flex-grow: 2;
-    margin:20px bold white;
-    display: flex;
-    
-    height: 25vh;
-   
-    flex-direction: column;
-
-    .Akhilesh{
-        padding-top: 30px;
-        padding-left: 30px;
-        #Akhilesh{
-            padding-top: 30px;
-            
-            color: white;
-            font-size: 32px;
-            font-family: sans-serif;
-    }
-}
-.matter{
-    background-color:#263040;
-
-    
-    margin-left: 20px;
-
-    .About{
-        
-        padding-left: 10px;
-            
-            color: white;
-            font-size: 18px;
-            font-family: sans-serif;
-
-    }  
-
-
-}
-   
-}
-.rightcontainer{
-    background-color: #263040;
-    margin:20px bold white;
-    padding: 20px;
-
-    
-    img {
-        border-radius: 50%;
-        float:right;
-        
-      }
-
-
-
-}
+.container .leftcontainer {
+  background-color: #263040;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  margin: 20px bold white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-
-
-.contcontainer{
-    background-color: black;
-    height: 23vh;
-    display: flex;
-    flex-direction: row;
-    
-    img {
-        border-radius: 50%;
-        float:right;
-        
-      }
-
-    .left{
-        display: flex;
-        
-        flex-direction: column;
-        width : 50%;
-        .email{
-            padding-top: 20px;
-            padding-left: 20px;
-            order:1;
-            display: flex;
-            flex: left;
-            #email{
-                color: white;
-                padding-left: 10px;
-                align-items: center;
-            }
-        }
-        .location{
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 20px;
-            order:2;
-            display: flex;
-            flex:left;
-            p{
-                padding-left: 10px;
-                color:white;
-            }
-        }
-
-    }
-
-    .right{
-        display :flex;
-        flex-direction: column;
-        .phone{
-            padding-top: 20px;
-            padding-left: 20px;
-            order:1;
-            display: flex;
-            flex: left;
-
-            #number{
-                color: white;
-                padding-left: 10px;
-                align-items: center;
-            
-
-            }
-
-        }
-
-        .linkedin{
-
-            padding-top: 10px;
-            padding-left: 20px;
-            padding-bottom: 10px;
-            order:2;
-            display: flex;
-            flex: left;
-
-            a{
-                padding-top: 20px;
-                color: white;
-                padding-left: 20px;
-                align-items: center;
-                
-            
-            }
-
-        }
-    }
+.container .leftcontainer .Akhilesh {
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
+.container .leftcontainer .Akhilesh #Akhilesh {
+  padding-top: 30px;
+  color: white;
+  font-size: 32px;
+  font-family: sans-serif;
+}
 
-.main{
-    display: flex;
-    flex-direction: row;
-   
-    
-    .main-left{
-        display: flex;
-        flex-direction: column;
-        margin:10px;
-        #Heading{
-            color: rgb(10, 90, 90);
-            font-weight: bold;
-            flex-wrap: wrap;
-            text-decoration: underline;
-            justify-content:space-between;
-            height: 5px;
-        }
+.container .leftcontainer .matter {
+  background-color: #263040;
+  margin-left: 20px;
+}
 
-        .Sub-Head{
-            color: black;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 20px;
-            flex-wrap: wrap;
-            justify-content:space-between;
-            height: 5px;
-        }
-        .details{
-            color: black;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 20px;
-            flex-wrap: wrap;
-            justify-content:space-between;
-            height: 5px;
-        }
+.container .leftcontainer .matter .About {
+  padding-left: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
 
-        
-    }
-}*/
+.container .rightcontainer {
+  background-color: #263040;
+  margin: 20px bold white;
+  padding: 20px;
+}
+
+.container .rightcontainer img {
+  border-radius: 50%;
+  float: right;
+}
+
+.contcontainer {
+  background-color: black;
+  height: 23vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contcontainer img {
+  border-radius: 50%;
+  float: right;
+}
+
+.contcontainer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.contcontainer .left .email {
+  padding-top: 20px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .left .email #email {
+  color: white;
+  padding-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contcontainer .left .location {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .left .location p {
+  padding-left: 10px;
+  color: white;
+}
+
+.contcontainer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contcontainer .right .phone {
+  padding-top: 20px;
+  padding-left: 20px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .right .phone #number {
+  color: white;
+  padding-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contcontainer .right .linkedin {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+.contcontainer .right .linkedin a {
+  padding-top: 20px;
+  color: white;
+  padding-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .main-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+.main .main-left #Heading {
+  color: #0a5a5a;
+  font-weight: bold;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-decoration: underline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5px;
+}
+
+.main .main-left .Sub-Head {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5px;
+}
+
+.main .main-left .details {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5px;
+}
 /*# sourceMappingURL=test.css.map */

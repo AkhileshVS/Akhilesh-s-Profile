@@ -262,7 +262,7 @@
   font-style: italic;
 }
 
-.main li {
+.main .data {
   margin: 0px;
   padding: 0px;
   font-size: 16px;
@@ -272,7 +272,7 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.main li span {
+.main .data span {
   color: black;
 }
 
@@ -288,5 +288,84 @@
       -ms-flex-direction: column;
           flex-direction: column;
   vertical-align: top;
+}
+
+.main .Main_Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .skill {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .skill .bder {
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.main .skill .ordered {
+  color: black;
+}
+
+.main .skill .a {
+  color: #0a5a5a;
+}
+
+.main .skill a {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main .skill #apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: red;
 }
 /*# sourceMappingURL=test.css.map */

@@ -58,12 +58,17 @@
 }
    
 }
+
+
+
+
+
 .rightcontainer{
     background-color: #263040;
     margin:20px bold white;
     padding: 20px;
 
-    
+
     img {
         border-radius: 50%;
         float:right;
@@ -73,7 +78,21 @@
 
 
 }
+
 }
+@media screen and (max-width: 622px){
+    .container{
+        height: 16vh;
+        .leftcontainer{
+            height: 13vh;
+            .Akhilesh{
+            color: red;
+            }
+        }
+        
+    
+    }
+    }
 
 
 
@@ -237,7 +256,7 @@
     
     .main-left{
         display: flex;
-        display: row;
+        /*display: row;*/
         width:50%;
        
             
@@ -253,7 +272,7 @@
         flex-direction: column;
 
 
-    }
+    
     .skill{
         width: 60%;
         display: flex;
@@ -297,21 +316,42 @@
             
         }
 
-        #apple{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-left: 10px;
-            flex-wrap: wrap;
-            color: red;
+       
 
+    }
+    .apple{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 18px;
+        flex-wrap: wrap;
+        color: black;
+        width: 75%;
+        
+        font-size: 20px;
+    }
+
+    .interests{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        flex-wrap: wrap;
+        margin-left: 18px;
+
+
+        .box{
+            border:2px solid rgb(39, 38, 38);
+            padding:15px;
+            font-size: 18px;
+            border-radius: 10px;
         }
-
     }
 
 
 
 
+}
 }
         

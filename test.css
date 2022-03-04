@@ -71,6 +71,18 @@
   float: right;
 }
 
+@media screen and (max-width: 622px) {
+  .container {
+    height: 16vh;
+  }
+  .container .leftcontainer {
+    height: 13vh;
+  }
+  .container .leftcontainer .Akhilesh {
+    color: red;
+  }
+}
+
 .contcontainer {
   background-color: black;
   height: 23vh;
@@ -280,7 +292,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: row;
+  /*display: row;*/
   width: 50%;
   display: flex;
   -webkit-box-orient: vertical;
@@ -301,7 +313,7 @@
           flex-direction: column;
 }
 
-.main .skill {
+.main .Main_Right .skill {
   width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,7 +333,7 @@
       flex-wrap: wrap;
 }
 
-.main .skill .bder {
+.main .Main_Right .skill .bder {
   margin: 20px;
   padding: 15px;
   color: white;
@@ -336,20 +348,20 @@
   border-radius: 10px;
 }
 
-.main .skill .ordered {
+.main .Main_Right .skill .ordered {
   color: black;
 }
 
-.main .skill .a {
+.main .Main_Right .skill .a {
   color: #0a5a5a;
 }
 
-.main .skill a {
+.main .Main_Right .skill a {
   padding: 0px;
   margin: 0px;
 }
 
-.main .skill #apple {
+.main .Main_Right .apple {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,9 +375,35 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-left: 10px;
+  margin-left: 18px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  color: red;
+  color: black;
+  width: 75%;
+  font-size: 20px;
+}
+
+.main .Main_Right .interests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 18px;
+}
+
+.main .Main_Right .interests .box {
+  border: 2px solid #272626;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=test.css.map */

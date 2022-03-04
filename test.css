@@ -427,7 +427,7 @@
 @media only screen and (max-width: 412px) {
   .container {
     height: 46vh;
-    background-color: #263040;
+    background-color: red;
   }
   .container .rightcontainer {
     padding-top: 18vh;

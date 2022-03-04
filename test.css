@@ -426,13 +426,14 @@
 
 @media only screen and (max-width: 412px) {
   .container {
-    height: 56vh;
+    height: 76vh;
     background-color: red;
   }
   .container .rightcontainer {
     padding-top: 28vh;
   }
   .contcontainer {
+    width: 100%;
     height: 14vh;
   }
 }

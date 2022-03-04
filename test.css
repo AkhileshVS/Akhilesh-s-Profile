@@ -6,6 +6,7 @@
 }
 .img-container {
     text-align: center;
+    
   }*/
 .container {
   display: -webkit-box;
@@ -17,11 +18,11 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin: solid 2px black;
-  height: 28vh;
+  height: 25vh;
 }
 
 .container .leftcontainer {
-  background-color: #263040;
+  /*background-color: #263040;*/
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -29,7 +30,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 25vh;
+  height: 22vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -49,7 +50,7 @@
 }
 
 .container .leftcontainer .matter {
-  background-color: #263040;
+  /* background-color:#263040;*/
   margin-left: 20px;
 }
 
@@ -62,25 +63,13 @@
 
 .container .rightcontainer {
   background-color: #263040;
-  margin: 20px bold white;
+  margin: 50px bold white;
   padding: 20px;
 }
 
 .container .rightcontainer img {
   border-radius: 50%;
   float: right;
-}
-
-@media screen and (max-width: 622px) {
-  .container {
-    height: 16vh;
-  }
-  .container .leftcontainer {
-    height: 13vh;
-  }
-  .container .leftcontainer .Akhilesh {
-    color: red;
-  }
 }
 
 .contcontainer {
@@ -274,6 +263,34 @@
   font-style: italic;
 }
 
+.main .marks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+}
+
+.main .marks1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
 .main .data {
   margin: 0px;
   padding: 0px;
@@ -405,5 +422,18 @@
   padding: 15px;
   font-size: 18px;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    height: 28vh;
+    background-color: #263040;
+  }
+  .container .rightcontainer {
+    padding-top: 9vh;
+  }
+  .contcontainer {
+    height: 14vh;
+  }
 }
 /*# sourceMappingURL=test.css.map */

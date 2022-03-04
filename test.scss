@@ -6,7 +6,10 @@
 }
 .img-container {
     text-align: center;
+    
   }*/
+
+  
 .container{
     display: flex;
     background-color: #263040;
@@ -14,16 +17,16 @@
 
   
     margin: solid 2px black;
-    height: 28vh;
+    height: 25vh;
 
-
+    
 .leftcontainer{
-    background-color: #263040;
+    /*background-color: #263040;*/
     flex-grow: 2;
     margin:20px bold white;
     display: flex;
     
-    height: 25vh;
+    height: 22vh;
    
     flex-direction: column;
 
@@ -39,7 +42,7 @@
     }
 }
 .matter{
-    background-color:#263040;
+   /* background-color:#263040;*/
 
     
     margin-left: 20px;
@@ -65,7 +68,7 @@
 
 .rightcontainer{
     background-color: #263040;
-    margin:20px bold white;
+    margin:50px bold white;
     padding: 20px;
 
 
@@ -80,19 +83,7 @@
 }
 
 }
-@media screen and (max-width: 622px){
-    .container{
-        height: 16vh;
-        .leftcontainer{
-            height: 13vh;
-            .Akhilesh{
-            color: red;
-            }
-        }
-        
-    
-    }
-    }
+
 
 
 
@@ -236,8 +227,18 @@
         font-style: italic;
 
     }
-
-
+    .marks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+    }
+    .marks1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
     
         .data{
             margin:0px;
@@ -314,6 +315,7 @@
             padding: 0px;
             margin: 0px;
             
+            
         }
 
        
@@ -353,5 +355,27 @@
 
 
 }
+}
+
+
+@media only screen and (max-width: 700px){
+    .container{
+        
+        height: 28vh;
+        background-color: #263040;
+        
+        
+        .rightcontainer{
+
+            padding-top: 9vh;
+        
+    
+    }
+
+    }
+
+    .contcontainer{
+        height: 14vh;
+    }
 }
         
